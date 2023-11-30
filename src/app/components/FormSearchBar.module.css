@@ -1,0 +1,42 @@
+.search_form {
+  font-family: "Poppins", sans-serif;
+}
+
+.input_button_layout {
+  height: 36px;
+  width: 148px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.input_button_layout:focus-within {
+  outline: 1px solid white;
+  border: 2px solid orange;
+}
+.form_input:focus {
+  outline: none;
+  border: none;
+}
+.form_input {
+  position: relative;
+  left: 15px;
+  width: 125px;
+  height: 36px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+.submit_button {
+  top: 2px;
+  position: relative;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

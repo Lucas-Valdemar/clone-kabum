@@ -1,0 +1,28 @@
+.container {
+  background-color: rgb(241, 122, 40);
+  width: 32rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contador {
+  align-items: center;
+  display: flex;
+}
+.contador svg {
+  width: 1.4rem;
+  margin-right: 0.8rem;
+}
+.contador span {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.h1 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

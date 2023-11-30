@@ -1,0 +1,30 @@
+.header_background {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 76rem;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  height: 64px;
+  background-color: rgb(0, 96, 177);
+}
+.header_flex {
+  display: flex;
+  height: auto;
+  padding: 0.75rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 76rem;
+  margin: 0px auto;
+  width: 100%;
+}
+.logo {
+}
+.search_bar {
+}
+.cart_icon {
+}
+.menu_icon {
+}

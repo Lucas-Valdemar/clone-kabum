@@ -1,0 +1,267 @@
+{
+  "svgImg": [
+    {
+      "id": 1,
+      "name": "star",
+      "url": "/svg/star.png"
+    },
+    {
+      "id": 2,
+      "name": "aim",
+      "url": "/svg/aim.png"
+    },
+    {
+      "id": 3,
+      "name": "bag",
+      "url": "/svg/bag.png"
+    },
+    {
+      "id": 4,
+      "name": "like",
+      "url": "/svg/like.png"
+    },
+    {
+      "id": 5,
+      "name": "thunder",
+      "url": "/svg/thunder.png"
+    }
+  ],
+  "departamentos": [
+    {
+      "id": 1,
+      "nome": "HARDWARE",
+      "imgUrl": "/departamentos/HARDWARE.webp"
+    },
+    {
+      "id": 2,
+      "nome": "PERIFÉRICOS",
+      "imgUrl": "/departamentos/PERIFERICOS.webp"
+    },
+    {
+      "id": 3,
+      "nome": "COMPUTADORES",
+      "imgUrl": "/departamentos/COMPUTADORES.webp"
+    },
+    {
+      "id": 4,
+      "nome": "GAMES",
+      "imgUrl": "/departamentos/GAMER.webp"
+    },
+    {
+      "id": 5,
+      "nome": "CELULAR & SMARTPHONE",
+      "imgUrl": "/departamentos/CELULAR-SMARTPHONE.webp"
+    },
+    {
+      "id": 6,
+      "nome": "TV",
+      "imgUrl": "/departamentos/TV.webp"
+    },
+    {
+      "id": 7,
+      "nome": "ÁUDIO",
+      "imgUrl": "/departamentos/AUDIO.webp"
+    },
+    {
+      "id": 8,
+      "nome": "PROJETORES",
+      "imgUrl": "/departamentos/PROJETORES.webp"
+    },
+    {
+      "id": 9,
+      "nome": "ESPAÇO GAMER",
+      "imgUrl": "/departamentos/ESPACO-GAMER.webp"
+    },
+    {
+      "id": 10,
+      "nome": "ESCRITÓRIO",
+      "imgUrl": "/departamentos/ESCRITORIO.webp"
+    },
+
+    {
+      "id": 11,
+      "nome": "CASA INTELIGENTE",
+      "imgUrl": "/departamentos/CASA-INTELIGENTE.webp"
+    },
+    {
+      "id": 12,
+      "nome": "TABLETS, IPADS E E-READERS",
+      "imgUrl": "/departamentos/TABLETS-IPADS-E-E-READERS.webp"
+    },
+    {
+      "id": 13,
+      "nome": "CÂMERAS E DRONES",
+      "imgUrl": "/departamentos/CAMERAS-E-DRONES.webp"
+    },
+
+    {
+      "id": 14,
+      "nome": "ENERGIA",
+      "imgUrl": "/departamentos/ENERGIA.webp"
+    },
+    {
+      "id": 15,
+      "nome": "CONECTIVIDADE",
+      "imgUrl": "/departamentos/CONECTIVIDADE.webp"
+    },
+    {
+      "id": 16,
+      "nome": "GEEK",
+      "imgUrl": "/departamentos/GEEK.webp"
+    },
+    {
+      "id": 17,
+      "nome": "ELETRODOMÉSTICOS",
+      "imgUrl": "/departamentos/ELETRODOMESTICOS.webp"
+    },
+    {
+      "id": 18,
+      "nome": "ELETROPORTÁTEIS",
+      "imgUrl": "/departamentos/ELETROPORTATEIS.webp"
+    },
+    {
+      "id": 19,
+      "nome": "AR E VENTILAÇÃO",
+      "imgUrl": "/departamentos/AR-E-VENTILACAO.webp"
+    },
+    {
+      "id": 20,
+      "nome": "SEGURANÇA",
+      "imgUrl": "/departamentos/SEGURANCA.webp"
+    },
+    {
+      "id": 21,
+      "nome": "AUTOMAÇÃO",
+      "imgUrl": "/departamentos/AUTOMACAO.webp"
+    },
+    {
+      "id": 22,
+      "nome": "TELEFONIA FIXA",
+      "imgUrl": "/departamentos/TELEFONIA-FIXA.webp"
+    },
+    {
+      "id": 23,
+      "nome": "SERVIÇOS DIGITAIS",
+      "imgUrl": "/departamentos/SERVICOS-DIGITAIS.webp"
+    },
+    {
+      "id": 24,
+      "nome": "BENEFÍCIO",
+      "imgUrl": "/departamentos/beneficio.webp"
+    },
+    {
+      "id": 25,
+      "nome": "FERRAMENTAS",
+      "imgUrl": "/departamentos/FERRAMENTAS.webp"
+    },
+    {
+      "id": 26,
+      "nome": "CUIDADOS PESSOAIS",
+      "imgUrl": "/departamentos/BELEZA-SAUDE.webp"
+    }
+  ],
+  "ofertas": [
+    {
+      "id": 1,
+      "nome": "Cadeira Gamer KBM! GAMING Tempest CG600, Preta, Com Almofadas, Descanso Para Pernas Retrátil, Reclinável - KGCG600PT",
+      "imgUrl": "/ofertas/cadeira-gamer-tempest-husky-gaming-light-grey-700_1621889965_m.jpg",
+      "valorAntigo": 1052.62,
+      "valor": 739.99,
+      "desconto": 25,
+      "primeNinja": true,
+      "ninjaIndica": true
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7-11800H, 16GB RAM, NVIDIA RTX3050, SSD 512GB, 15.6 LED FHD IPS, Linux, Preto - AN515-57-795J",
+      "imgUrl": "/ofertas/notebook-gamer-acer-nitro-5-intel-core-i7-11800h-16gb-ram-nvidia-rtx3050-ssd-512gb-15-6-led-fhd-ips-linux-preto-an515-57-795j_1696511422_m.jpg",
+      "valorAntigo": 4631.57,
+      "valor": 4249.99,
+      "desconto": 3,
+      "primeNinja": true,
+      "ninjaIndica": true
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Gamer LG UltraGear 27 Full HD, 144Hz, 1ms, IPS, HDMI e DisplayPort, HDR 10, 99% sRGB, FreeSync Premium, VESA - 27GN65R",
+      "imgUrl": "/ofertas/monitor-gamer-lg-ultragear-27-full-hd-144hz-1ms-ips-hdmi-e-displayport-hdr-10-99-srgb-freesync-premium-vesa-27gn65r_1684763831_m.jpg",
+      "valorAntigo": 1105.25,
+      "valor": 999.99,
+      "desconto": 4,
+      "primeNinja": true
+    },
+    {
+      "id": 4,
+      "nome": "Water Cooler Gamer Rise Mode, ARGB, Intel e AMD, 240mm, Preto - RM-WCB-04-ARGB",
+      "imgUrl": "/ofertas/water-cooler-gamer-rise-mode-argb-intel-e-amd-240mm-preto-rm-wcb-04-argb_1663778106_m.jpg",
+      "valorAntigo": 282.34,
+      "valor": 225.99,
+      "desconto": 5,
+      "primeNinja": true
+    },
+    {
+      "id": 5,
+      "nome": "Placa de Vídeo RX 6750 XT MECH 2X 12G V1 Radeon, 12GB GDDR6, FreeSync, Dual Fan",
+      "imgUrl": "/ofertas/placa-de-video-rx-6750-xt-mech-2x-12g-v1-radeon-12gb-gddr6-freesync-dual-fan_1689965385_m.jpg",
+      "valorAntigo": 2049.99,
+      "valor": 1939.99,
+      "desconto": 5,
+      "primeNinja": true
+    }
+  ],
+  "destaques": [
+    {
+      "id": 1,
+      "nome": "Robô Aspirador de Pó KaBuM! Smart 700, Branco, Mapeamento IR 360º, Controle via Aplicativo, Google Assistant e Alexa - KBSF006",
+      "imgUrl": "/destaques/aspirador-de-po-robo-ir-360-kabum-smart-700-branco_1628769488_m.webp",
+      "valor": 1349.0,
+      "ofertaPrime": true
+    },
+    {
+      "id": 2,
+      "nome": "Caixa de Som JBL Boombox 3, Bluetooth, USB, 80W RMS, Preto - 28913624",
+      "imgUrl": "/destaques/caixa-de-som-jbl-boombox-3-bluetooth-usb-80w-rms-preto-28913624_1666039767_m.webp",
+      "valorAntigo": 2631.57,
+      "valor": 2041.55,
+      "desconto": 18,
+      "ninjaIndica": true
+    },
+    {
+      "id": 3,
+      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
+      "valor": 1999.9,
+      "primeNinja": true
+    }
+  ],
+  "procurados": [
+    {
+      "id": 1,
+      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
+      "valor": 1999.9,
+      "primeNinja": true,
+      "entregaFlash": true
+    }
+  ],
+  "recentes": [
+    {
+      "id": 1,
+      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
+      "valor": 1999.9,
+      "primeNinja": true,
+      "entregaFlash": true
+    }
+  ],
+  "treding": [
+    {
+      "id": 1,
+      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
+      "valor": 1999.9,
+      "primeNinja": true,
+      "entregaFlash": true
+    }
+  ]
+}

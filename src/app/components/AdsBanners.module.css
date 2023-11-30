@@ -1,0 +1,13 @@
+.ads_banners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 1.6rem 0px;
+  padding-top: 2.4rem;
+}
+.banner_um img,
+.banner_dois img {
+  width: 28.8rem;
+}

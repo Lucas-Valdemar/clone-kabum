@@ -1,0 +1,35 @@
+.recomendadas {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+.container {
+  display: grid;
+  margin-top: 1.6rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+.section_header {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.texto {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(66, 70, 77);
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+.ver_todas {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(255, 101, 0);
+  text-decoration: none;
+}

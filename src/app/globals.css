@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: "Poppins", sans-serif;
+  --background-principal: #f2f3f4;
+  --orange-strong: #e35214;
+  --orange-text: #fc6b0f;
+  --orange-weak: #ff6500;
+  --white-weak: #f5f5f5;
+  --blue: #0060b1;
+  --green: #2dc26e;
+  --green-text: #1f9050;
+  --red: #e72626;
+  --grey-trash-icon: #b6bbc2;
+  --grey-line: #dee0e4;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+main {
+  background-color: #f2f3f4;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: rgb(255, 101, 0);
+  opacity: 1;
+}
