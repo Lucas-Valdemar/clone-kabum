@@ -1,16 +1,16 @@
 "use client";
 import React from "react";
 import styles from "./DestaquesNinja.module.css";
-import DestaquesNinjaItens from "./DestaquesNinjaItens";
 import { useState, useEffect } from "react";
 
 //*SWIPER
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Grid } from "swiper/modules";
 
 type Props = {
   title: string | null;
-  svgUrl: string;
+  svgUrl: string | null;
 };
 
 const DestaquesNinja = ({ title, svgUrl }: Props) => {
@@ -18,22 +18,24 @@ const DestaquesNinja = ({ title, svgUrl }: Props) => {
 
   useEffect(() => {
     async function fetchData() {
-      try {
-        const res = await fetch(svgUrl);
+      if (svgUrl) {
+        try {
+          const res = await fetch(svgUrl);
 
-        if (!res.ok) {
-          throw new Error(`Status: ${res.status}`);
+          if (!res.ok) {
+            throw new Error(`Status: ${res.status}`);
+          }
+
+          const data = await res.json();
+
+          if (data && data.url) {
+            setSvg(data);
+          } else {
+            throw new Error('Invalid JSON format. Missing "url" property.');
+          }
+        } catch (error: any) {
+          console.error("Error fetching or parsing SVG:", error.message);
         }
-
-        const data = await res.json();
-
-        if (data && data.url) {
-          setSvg(data);
-        } else {
-          throw new Error('Invalid JSON format. Missing "url" property.');
-        }
-      } catch (error: any) {
-        console.error("Error fetching or parsing SVG:", error.message);
       }
     }
     fetchData();
@@ -42,7 +44,7 @@ const DestaquesNinja = ({ title, svgUrl }: Props) => {
   return (
     <section className={styles.section_destaquesninja}>
       <div
-        className={title !== null ? styles.section_header : styles.no_header}
+        className={title !== null ? styles.section_header : styles.no_display}
       >
         <div className={styles.texto}>
           {titleIcon && <img src={titleIcon?.url} alt="star" />}
@@ -67,7 +69,11 @@ const DestaquesNinja = ({ title, svgUrl }: Props) => {
         </a>
       </div>
       <div className={styles.destaquesninja}>
-        <Swiper spaceBetween={10} className={styles.my_swiper}>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={10}
+          className={styles.my_swiper}
+        >
           <SwiperSlide>
             <DestaquesNinjaItens
               imgSrc="/Ofertas/cadeira-gamer-tempest-husky-gaming-light-grey-700_1621889965_m.jpg"
@@ -109,6 +115,27 @@ const DestaquesNinja = ({ title, svgUrl }: Props) => {
             />
           </SwiperSlide>
         </Swiper>
+      </div>
+      <div
+        className={title !== null ? styles.no_display : styles.section_footer}
+      >
+        <a href="">
+          <p>VER TODOS</p>
+          <svg
+            width="8px"
+            height="14"
+            viewBox="0 0 10 14"
+            fill="none"
+            xmlns="https://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M2.18972 14L0.916992 12.7273L6.64427 7L0.916992 1.27273L2.18972 0L9.18972 7L2.18972 14Z"
+              fill="#ff6500"
+            ></path>
+          </svg>
+        </a>
       </div>
     </section>
   );

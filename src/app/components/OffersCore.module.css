@@ -1,6 +1,13 @@
-.container {
+/* hide_object */
+.hide_object {
+  display: none;
+}
+
+.section_container {
   background-color: white;
   margin-bottom: 1rem;
+  margin-left: 1.6rem;
+
   border-radius: 4px;
   height: 23rem;
   width: 29rem;
@@ -28,7 +35,7 @@
   align-items: center;
   width: 100%;
 }
-.ninja_indica {
+.ninja_indica_icon {
   padding: 0.4rem 0.8rem;
   border-radius: 0.4rem;
   background: rgb(0, 96, 177);
@@ -38,12 +45,12 @@
   -webkit-box-align: center;
   align-items: center;
 }
-.ninja_indica span {
+.ninja_indica_icon span {
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 600;
 }
-.icons {
+.buttons_container {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -65,17 +72,22 @@
   background: transparent;
   border: none;
 }
-.carrinho svg {
-  fill: none;
+.svg_carrinho {
+  fill: rgb(182, 187, 194);
 }
 
 /* MAIN */
-.link {
+
+.product_page_link {
   display: flex;
   flex-direction: row;
   padding: 0px 0.8rem;
+  max-height: 12.8rem;
 }
-.link img {
+
+/* styles aplicado na imagem, e nos dois ícones abaixo dela */
+
+.product_page_link img {
   width: 10.7rem;
   height: 9.2rem;
 }
@@ -83,15 +95,11 @@
   display: flex;
   flex-direction: column;
 }
-.dc1 {
+.under_img_itens {
   display: flex;
-  gap: 0.8rem;
 }
-.desconto {
-  display: flex;
-  gap: 0.8rem;
-}
-.dc1i {
+
+.desconto_icon {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -104,12 +112,22 @@
   height: 1.4rem;
   gap: 0.4rem;
 }
-.dc1i p {
+.desconto_icon p {
   font-size: 1rem;
   line-height: 1.3rem;
   font-weight: 700;
   color: white;
 }
+
+.flash_icon {
+  border-radius: 0.4rem;
+  left: 0.8rem;
+  bottom: 1rem;
+  width: 4.7rem;
+  height: 1.4rem;
+}
+
+/* styles aplicados no título */
 .info_produtos {
   display: flex;
   flex-direction: column;
@@ -135,14 +153,38 @@
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
-.valores {
+
+/* styles aplicados nos preços e na legenda PIX */
+.oldPrice {
+  font-size: 1rem;
+  height: 1rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  align-items: center;
+  color: rgb(127, 133, 141);
+  text-decoration: line-through;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.princing {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 1.2rem 0px 0.8rem;
 }
+.princing span {
+  font-size: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: rgb(127, 133, 141);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
 
-.valor {
+.price_styles {
   line-height: 3rem;
   font-weight: 700;
   height: 2rem;
@@ -154,16 +196,7 @@
   -webkit-box-align: center;
   align-items: center;
 }
-.valores span {
-  font-size: 1rem;
-  height: 1rem;
-  line-height: 1rem;
-  font-weight: 400;
-  color: rgb(127, 133, 141);
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
+
 .none {
   height: 1.6rem;
 }
@@ -174,7 +207,65 @@
   margin-top: auto;
   padding: 0.8rem;
 }
-.footer {
+
+/* footer com temporizador */
+.expiration_timer_footer {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(255, 101, 0) 0px 0px 0px 1px inset;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  height: 3.8rem;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 3.8rem;
+}
+.timer_svg {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 100%;
+  background: rgb(255, 101, 0);
+  width: 5.6rem;
+}
+.vertical_flex {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 21.8rem;
+  background: transparent;
+  color: rgb(255, 101, 0);
+}
+.timer_timer {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+}
+
+/* Primeninja Footer */
+.prime_ninja_footer {
   margin-top: auto;
   padding: 0.8rem;
   display: flex;
@@ -190,7 +281,7 @@
   background: rgb(14, 17, 22);
   color: rgb(255, 255, 255);
 }
-.footer span {
+.prime_ninja_footer span {
   font-size: 1.2rem;
   line-height: 1.4rem;
   font-weight: 400;

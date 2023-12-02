@@ -1,4 +1,4 @@
-.no_header {
+.no_display {
   display: none;
 }
 .section_destaquesninja {
@@ -41,4 +41,23 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+.section_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+.section_footer a {
+  display: flex;
+  align-items: center;
+}
+.section_footer p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(244, 81, 1);
+}
+.section_footer svg {
+  margin-left: 10px;
 }

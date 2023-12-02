@@ -163,105 +163,143 @@
   "ofertas": [
     {
       "id": 1,
-      "nome": "Cadeira Gamer KBM! GAMING Tempest CG600, Preta, Com Almofadas, Descanso Para Pernas Retrátil, Reclinável - KGCG600PT",
+      "name": "Cadeira Gamer KBM! GAMING Tempest CG600, Preta, Com Almofadas, Descanso Para Pernas Retrátil, Reclinável - KGCG600PT",
       "imgUrl": "/ofertas/cadeira-gamer-tempest-husky-gaming-light-grey-700_1621889965_m.jpg",
-      "valorAntigo": 1052.62,
-      "valor": 739.99,
-      "desconto": 25,
-      "primeNinja": true,
-      "ninjaIndica": true
+      "isNinjaIndica": true,
+      "oldPrice": 1052.62,
+      "price": 739.99,
+      "discount": 25,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     },
     {
       "id": 2,
-      "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7-11800H, 16GB RAM, NVIDIA RTX3050, SSD 512GB, 15.6 LED FHD IPS, Linux, Preto - AN515-57-795J",
+      "name": "Notebook Gamer Acer Nitro 5 Intel Core I7-11800H, 16GB RAM, NVIDIA RTX3050, SSD 512GB, 15.6 LED FHD IPS, Linux, Preto - AN515-57-795J",
       "imgUrl": "/ofertas/notebook-gamer-acer-nitro-5-intel-core-i7-11800h-16gb-ram-nvidia-rtx3050-ssd-512gb-15-6-led-fhd-ips-linux-preto-an515-57-795j_1696511422_m.jpg",
-      "valorAntigo": 4631.57,
-      "valor": 4249.99,
-      "desconto": 3,
-      "primeNinja": true,
-      "ninjaIndica": true
+      "isNinjaIndica": true,
+      "oldPrice": 4631.57,
+      "price": 4249.99,
+      "discount": 3,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     },
     {
       "id": 3,
-      "nome": "Monitor Gamer LG UltraGear 27 Full HD, 144Hz, 1ms, IPS, HDMI e DisplayPort, HDR 10, 99% sRGB, FreeSync Premium, VESA - 27GN65R",
+      "name": "Monitor Gamer LG UltraGear 27 Full HD, 144Hz, 1ms, IPS, HDMI e DisplayPort, HDR 10, 99% sRGB, FreeSync Premium, VESA - 27GN65R",
       "imgUrl": "/ofertas/monitor-gamer-lg-ultragear-27-full-hd-144hz-1ms-ips-hdmi-e-displayport-hdr-10-99-srgb-freesync-premium-vesa-27gn65r_1684763831_m.jpg",
-      "valorAntigo": 1105.25,
-      "valor": 999.99,
-      "desconto": 4,
-      "primeNinja": true
+      "isNinjaIndica": false,
+      "oldPrice": 1105.25,
+      "price": 999.99,
+      "discount": 4,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     },
     {
       "id": 4,
-      "nome": "Water Cooler Gamer Rise Mode, ARGB, Intel e AMD, 240mm, Preto - RM-WCB-04-ARGB",
+      "name": "Water Cooler Gamer Rise Mode, ARGB, Intel e AMD, 240mm, Preto - RM-WCB-04-ARGB",
       "imgUrl": "/ofertas/water-cooler-gamer-rise-mode-argb-intel-e-amd-240mm-preto-rm-wcb-04-argb_1663778106_m.jpg",
-      "valorAntigo": 282.34,
-      "valor": 225.99,
-      "desconto": 5,
-      "primeNinja": true
+      "isNinjaIndica": false,
+      "oldPrice": 282.34,
+      "price": 225.99,
+      "discount": 5,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     },
     {
       "id": 5,
-      "nome": "Placa de Vídeo RX 6750 XT MECH 2X 12G V1 Radeon, 12GB GDDR6, FreeSync, Dual Fan",
+      "name": "Placa de Vídeo RX 6750 XT MECH 2X 12G V1 Radeon, 12GB GDDR6, FreeSync, Dual Fan",
       "imgUrl": "/ofertas/placa-de-video-rx-6750-xt-mech-2x-12g-v1-radeon-12gb-gddr6-freesync-dual-fan_1689965385_m.jpg",
-      "valorAntigo": 2049.99,
-      "valor": 1939.99,
-      "desconto": 5,
-      "primeNinja": true
+      "isNinjaIndica": false,
+      "oldPrice": 2049.99,
+      "price": 1939.99,
+      "discount": 5,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     }
   ],
   "destaques": [
     {
-      "id": 1,
-      "nome": "Robô Aspirador de Pó KaBuM! Smart 700, Branco, Mapeamento IR 360º, Controle via Aplicativo, Google Assistant e Alexa - KBSF006",
+      "id": 6,
+      "name": "Robô Aspirador de Pó KaBuM! Smart 700, Branco, Mapeamento IR 360º, Controle via Aplicativo, Google Assistant e Alexa - KBSF006",
       "imgUrl": "/destaques/aspirador-de-po-robo-ir-360-kabum-smart-700-branco_1628769488_m.webp",
-      "valor": 1349.0,
-      "ofertaPrime": true
+      "isNinjaIndica": true,
+      "oldPrice": 2631.57,
+      "price": 1349.0,
+      "discount": 18,
+      "isPrimeNinja": true,
+      "isFlash": true,
+      "exclusiveOnPrimeNinjaPrice": 1249.99
     },
     {
-      "id": 2,
-      "nome": "Caixa de Som JBL Boombox 3, Bluetooth, USB, 80W RMS, Preto - 28913624",
+      "id": 7,
+      "name": "Caixa de Som JBL Boombox 3, Bluetooth, USB, 80W RMS, Preto - 28913624",
       "imgUrl": "/destaques/caixa-de-som-jbl-boombox-3-bluetooth-usb-80w-rms-preto-28913624_1666039767_m.webp",
-      "valorAntigo": 2631.57,
-      "valor": 2041.55,
-      "desconto": 18,
-      "ninjaIndica": true
+      "isNinjaIndica": true,
+      "oldPrice": 2631.57,
+      "price": 2041.55,
+      "discount": 18,
+      "isPrimeNinja": false,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     },
     {
-      "id": 3,
-      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "id": 8,
+      "name": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
       "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
-      "valor": 1999.9,
-      "primeNinja": true
+      "isNinjaIndica": false,
+      "oldPrice": null,
+      "price": 1999.9,
+      "discount": null,
+      "isPrimeNinja": true,
+      "isFlash": false,
+      "exclusiveOnPrimeNinjaPrice": null
     }
   ],
   "procurados": [
     {
-      "id": 1,
-      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "id": 9,
+      "name": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
       "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
-      "valor": 1999.9,
-      "primeNinja": true,
-      "entregaFlash": true
+      "isNinjaIndica": false,
+      "oldPrice": null,
+      "price": 1999.9,
+      "discount": null,
+      "isPrimeNinja": true,
+      "isFlash": true,
+      "exclusiveOnPrimeNinjaPrice": null
     }
   ],
   "recentes": [
     {
-      "id": 1,
-      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "id": 10,
+      "name": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
       "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
-      "valor": 1999.9,
-      "primeNinja": true,
-      "entregaFlash": true
+      "isNinjaIndica": false,
+      "oldPrice": null,
+      "price": 1999.9,
+      "discount": null,
+      "isPrimeNinja": true,
+      "isFlash": true,
+      "exclusiveOnPrimeNinjaPrice": null
     }
   ],
-  "treding": [
+  "trending": [
     {
-      "id": 1,
-      "nome": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
+      "id": 11,
+      "name": "Smartphone Samsung Galaxy S21 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 12MP, Tela Infinita de 6.4, Preto - SM-G990EZARZTO",
       "imgUrl": "/destaques/smartphone-samsung-galaxy-s21-fe-128gb-ram-6gb-5g-camera-tripla-preto-sm-g990ezarzto_1641416145_m.webp",
-      "valor": 1999.9,
-      "primeNinja": true,
-      "entregaFlash": true
+      "isNinjaIndica": false,
+      "oldPrice": null,
+      "price": 1999.9,
+      "discount": null,
+      "isPrimeNinja": true,
+      "isFlash": true,
+      "exclusiveOnPrimeNinjaPrice": null
     }
   ]
 }
