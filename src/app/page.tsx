@@ -12,32 +12,32 @@ export default function Home() {
       <NavigationBar />
       <main>
         <Banner />
-        <OffersSection productsUrl="http://localhost:3000/ofertas" />
+        <OffersSection productsUrl="https://complemento-clone-kabum.vercel.app/ofertas" />
         <AdsBanners
           bannerUmSrc="./ads banners/ad1.webp"
           bannerDoisSrc="./ads banners/ad2.webp"
         />
         <MarcasRecomendadas />
         <OffersSection
-          productsUrl="http://localhost:3000/destaques"
+          productsUrl="https://complemento-clone-kabum.vercel.app/destaques"
           sectionTitle="DESTAQUES NINJA"
-          titleIconLink="http://localhost:3000/svgImg/1"
+          titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/1"
         />
         <Departamentos />
         <OffersSection
-          productsUrl="http://localhost:3000/ofertas"
+          productsUrl="https://complemento-clone-kabum.vercel.app/ofertas"
           sectionTitle="MAIS PROCURADOS"
-          titleIconLink="http://localhost:3000/svgImg/2"
+          titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/2"
         />
         <OffersSection
-          productsUrl="http://localhost:3000/destaques"
+          productsUrl="https://complemento-clone-kabum.vercel.app/destaques"
           sectionTitle="ACABARAM DE CHEGAR"
-          titleIconLink="http://localhost:3000/svgImg/5"
+          titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/5"
         />
         <OffersSection
-          productsUrl="http://localhost:3000/ofertas"
+          productsUrl="https://complemento-clone-kabum.vercel.app/ofertas"
           sectionTitle="MAIS VENDIDOS"
-          titleIconLink="http://localhost:3000/svgImg/3"
+          titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/3"
         />
       </main>
       <footer></footer>

@@ -11,7 +11,7 @@ import "swiper/css/grid";
 import "swiper/css/pagination";
 import { Grid, Pagination } from "swiper/modules";
 
-const url = "http://localhost:3000/departamentos";
+const url = "https://complemento-clone-kabum.vercel.app/departamentos";
 
 const Departamentos = () => {
   const [departamentos, setDepartamentos] = useState<any[]>([]);
