@@ -7,8 +7,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const url = "http://localhost:3000/departamentos/";
-// const url = "https://complemento-clone-kabum.vercel.app/departamentos";
+// const url = "http://localhost:3000/departamentos/";
+const url = "https://complemento-clone-kabum.vercel.app/departamentos";
 
 const DepartamentoSection = () => {
   const [departamentos, setDepartamentos] = useState<any[]>([]);
