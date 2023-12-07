@@ -1,9 +1,7 @@
 import NavigationBar from "./components/NavigationBar";
 import Banner from "./components/Banner";
-import Ofertas from "./components/Ofertas";
 import AdsBanners from "./components/AdsBanners";
 import MarcasRecomendadas from "./components/MarcasRecomendadas";
-import Departamentos from "./components/Departamentos";
 import OffersSection from "./components/OffersSection";
 import DepartamentoSection from "./components/DepartamentoSection";
 
