@@ -301,5 +301,11 @@
       "isFlash": true,
       "exclusiveOnPrimeNinjaPrice": null
     }
+  ],
+  "teste": [
+    {
+      "id": 55,
+      "name": "teste"
+    }
   ]
 }
