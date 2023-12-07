@@ -1,4 +1,50 @@
 {
+  "bannersMobile": [
+    {
+      "id": 2,
+      "url": "/mobileBanners/banner2.jpg"
+    },
+    {
+      "id": 3,
+      "url": "/mobileBanners/banner3.jpg"
+    },
+    {
+      "id": 4,
+      "url": "/mobileBanners/banner4.jpg"
+    },
+    {
+      "id": 5,
+      "url": "/mobileBanners/banner5.png"
+    },
+    {
+      "id": 6,
+      "url": "/mobileBanners/banner6.png"
+    },
+    {
+      "id": 7,
+      "url": "/mobileBanners/banner7.jpg"
+    },
+    {
+      "id": 8,
+      "url": "/mobileBanners/banner8.jpg"
+    },
+    {
+      "id": 9,
+      "url": "/mobileBanners/banner9.jpg"
+    },
+    {
+      "id": 10,
+      "url": "/mobileBanners/banner10.png"
+    },
+    {
+      "id": 11,
+      "url": "/mobileBanners/banner11.png"
+    },
+    {
+      "id": 12,
+      "url": "/mobileBanners/banner12.png"
+    }
+  ],
   "svgImg": [
     {
       "id": 1,

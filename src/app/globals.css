@@ -52,3 +52,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: rgb(255, 101, 0);
   opacity: 1;
 }
+.slick-pagination button {
+  background: rgb(0, 96, 177);
+}
+.slick-pagination .slick-active button {
+  background: rgb(255, 101, 0);
+}

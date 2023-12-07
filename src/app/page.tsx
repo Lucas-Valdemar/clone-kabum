@@ -5,6 +5,7 @@ import AdsBanners from "./components/AdsBanners";
 import MarcasRecomendadas from "./components/MarcasRecomendadas";
 import Departamentos from "./components/Departamentos";
 import OffersSection from "./components/OffersSection";
+import DepartamentoSection from "./components/DepartamentoSection";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
           sectionTitle="DESTAQUES NINJA"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/1"
         />
-        <Departamentos />
+        <DepartamentoSection />
         <OffersSection
           productsUrl="https://complemento-clone-kabum.vercel.app/ofertas"
           sectionTitle="MAIS PROCURADOS"
