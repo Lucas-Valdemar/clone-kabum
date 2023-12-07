@@ -7,7 +7,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const url = "http://localhost:3000/bannersMobile";
+// const url = "http://localhost:3000/bannersMobile";
+const url = "https://complemento-clone-kabum.vercel.app/bannersMobile";
 
 const Banner = () => {
   const [banners, setBanners] = useState<any[]>([]);
@@ -40,6 +41,7 @@ const Banner = () => {
 
   const settings = {
     dots: true,
+    dotsClassName: `slick-pagination`,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
