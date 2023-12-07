@@ -1,29 +1,44 @@
 "use client";
-import React from "react";
-import styles from "./Departamentos.module.css";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import styles from "./DepartamentoSection.module.css";
 import DepartamentoItens from "./DepartamentoItens";
 
-//*SWIPER
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/grid";
-import "swiper/css/pagination";
-import { Grid, Pagination } from "swiper/modules";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const url = "https://complemento-clone-kabum.vercel.app/departamentos";
+const url = "http://localhost:3000/departamentos/";
+// const url = "https://complemento-clone-kabum.vercel.app/departamentos";
 
-const Departamentos = () => {
+const DepartamentoSection = () => {
   const [departamentos, setDepartamentos] = useState<any[]>([]);
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch(url);
-      const data = await res.json();
-      setDepartamentos(data);
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        setDepartamentos(data);
+      } catch (error) {
+        console.error("Erro ao buscar dados:", error);
+      }
     }
     fetchData();
   }, []);
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "0px", // ajuste conforme necessário
+    slidesToShow: 1,
+    speed: 500,
+    rows: 3,
+    slidesPerRow: 2,
+    dots: true,
+    dotsClass: `slick-pagination ${styles.dots} `,
+  };
+
   return (
     <section className={styles.departamentos}>
       <div className={styles.section_header}>
@@ -62,34 +77,19 @@ const Departamentos = () => {
           </svg>
         </a>
       </div>
-      <div className={styles.swiper_grid}>
-        <Swiper
-          slidesPerView={2}
-          grid={{
-            fill: "row",
-            rows: 3,
-          }}
-          spaceBetween={8}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Grid, Pagination]}
-          className={styles.my_swiper}
-        >
-          <div className={styles.teste}>
-            {departamentos.map((departamento) => (
-              <SwiperSlide key={departamento.id}>
-                <DepartamentoItens
-                  nome={departamento.nome}
-                  imgUrl={departamento.imgUrl}
-                />
-              </SwiperSlide>
-            ))}
+      <Slider {...settings} className={styles.slick_container}>
+        {departamentos.map((departamento) => (
+          <div key={departamento.id}>
+            <DepartamentoItens
+              id={departamento.id}
+              nome={departamento.nome}
+              imgUrl={departamento.imgUrl}
+            />
           </div>
-        </Swiper>
-      </div>
+        ))}
+      </Slider>
     </section>
   );
 };
 
-export default Departamentos;
+export default DepartamentoSection;

@@ -5,7 +5,8 @@
 .section_offers_flex {
   display: flex;
   flex-direction: column;
-  padding-top: 2.5rem;
+  padding-top: 2rem;
+  padding-left: 0.8rem;
 }
 .section_header {
   display: flex;

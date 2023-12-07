@@ -1,6 +1,8 @@
 .item {
   display: inline-block;
-  width: 100%;
+  width: 95%;
+  height: 9.3rem;
+  margin-bottom: 6rem;
 }
 .item a {
   position: relative;
@@ -28,10 +30,14 @@
 }
 .img {
   width: 100%;
-  height: auto;
   max-height: 9rem;
-  bottom: -6rem;
+  bottom: -2rem;
   object-fit: contain;
   color: transparent;
-  position: absolute;
+  position: relative;
+}
+#item-5,
+#item-12,
+#item-26 {
+  bottom: -1rem;
 }
