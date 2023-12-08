@@ -9,7 +9,7 @@ interface Banners {
   bannerLink: string;
 }
 const PromotionBanners = () => {
-  const bannersUrl = "http://localhost:3000/promotionBanners";
+  const bannersUrl = "https://complemento-clone-kabum.vercel.app/Banners";
   //   const bannersUrl = "http://localhost:3000/promotionBanners";
 
   const [bannersLinks, setBannersLinks] = useState<Banners[]>([]);

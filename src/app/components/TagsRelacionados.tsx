@@ -8,7 +8,8 @@ interface Tags {
 }
 const TagsRelacionados = () => {
   //  Fetch Tags
-  const tagsUrl = "http://localhost:3000/tagsRelacionados";
+  const tagsUrl =
+    "http://https://complemento-clone-kabum.vercel.app/tagsRelacionados";
   // const tagsUrl = "http://localhost:3000/tagsRelacionados";
 
   const [tagLinks, setTagLinks] = useState<Tags[]>([]);
