@@ -13,7 +13,8 @@ interface Banners {
 
 const CarouselBanner = () => {
   //  Fetch Banners
-  const bannersUrl = "https://complemento-clone-kabum.vercel.app/Banners";
+  const bannersUrl =
+    "https://complemento-clone-kabum.vercel.app/responsiveBanners";
   // const bannersUrl = "http://localhost:3000/responsiveBanners";
 
   const [bannersLinks, setBannersLinks] = useState<Banners[]>([]);
