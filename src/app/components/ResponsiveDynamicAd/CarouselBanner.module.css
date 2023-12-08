@@ -1,0 +1,49 @@
+/* Container do carousel */
+.slick_container {
+  padding-left: 1.6rem;
+  width: calc(75vw * 2);
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.hyperlink {
+  display: block;
+  padding-right: 1.6rem;
+}
+.hyperlink img {
+  width: 100%;
+  margin-right: 1.6rem;
+}
+
+/* Estilos dos botões de paginação */
+.dots {
+  position: absolute;
+  bottom: -3.2rem;
+  display: block;
+  width: calc(100vw - 3.2rem);
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.dots li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px 0.4rem;
+  padding: 0px;
+}
+.dots button {
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  width: 1.6rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+}
+.dots button::before {
+  background: rgb(255, 101, 0);
+}
+.slick-active {
+  background: rgb(255, 101, 0);
+}

@@ -1,0 +1,51 @@
+.section_promotion_banners {
+  width: 100%;
+  margin-top: 3.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hyperlink {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  object-fit: contain;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  width: 100%;
+}
+.img_wrapper {
+  width: 100%;
+}
+.img_wrapper img {
+  width: 100%;
+}
+
+.details_wrapper {
+  padding: 1.6rem;
+}
+.details_wrapper h2 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(86, 92, 105);
+}
+.details_wrapper p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: rgb(86, 92, 105);
+}

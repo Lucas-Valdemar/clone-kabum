@@ -30,7 +30,7 @@ const DepartamentoSection = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "0px", // ajuste conforme necessário
+    centerPadding: "0px",
     slidesToShow: 1,
     speed: 500,
     rows: 3,

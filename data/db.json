@@ -1,4 +1,84 @@
 {
+  "tagsRelacionados": [
+    {
+      "id": 1,
+      "tagName": "ps4"
+    },
+    {
+      "id": 2,
+      "tagName": "nintendo switch"
+    },
+    {
+      "id": 3,
+      "tagName": "playstation 5"
+    },
+    {
+      "id": 4,
+      "tagName": "xbox"
+    },
+    {
+      "id": 5,
+      "tagName": "kindle"
+    },
+    {
+      "id": 6,
+      "tagName": "office 365"
+    },
+    {
+      "id": 7,
+      "tagName": "apple watch"
+    },
+    {
+      "id": 8,
+      "tagName": "iphone 15"
+    },
+    {
+      "id": 9,
+      "tagName": "iphone 14"
+    },
+    {
+      "id": 10,
+      "tagName": "rtx 4060   ti"
+    },
+    {
+      "id": 11,
+      "tagName": "rtx 3080"
+    }
+  ],
+  "responsiveBanners": [
+    {
+      "id": 1,
+      "bannerLink": "/responsiveBanners/banner1.png"
+    },
+    {
+      "id": 2,
+      "bannerLink": "/responsiveBanners/banner2.png"
+    },
+    {
+      "id": 3,
+      "bannerLink": "/responsiveBanners/banner3.png"
+    }
+  ],
+  "promotionBanners": [
+    {
+      "id": 1,
+      "title": "SEJA UM PARCEIRO NINJA",
+      "description": "Clique e saiba mais",
+      "bannerLink": "/promotionBanners/banner1.webp"
+    },
+    {
+      "id": 2,
+      "title": "TECMASTERS",
+      "description": "As últimas notícias do mundo da Tecnologia.",
+      "bannerLink": "/promotionBanners/banner2.webp"
+    },
+    {
+      "id": 3,
+      "title": "BAIXE O APP KABUM!",
+      "description": "E aproveite descontos exclusivos",
+      "bannerLink": "/promotionBanners/banner3.webp"
+    }
+  ],
   "bannersMobile": [
     {
       "id": 2,
