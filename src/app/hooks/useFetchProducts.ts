@@ -1,6 +1,7 @@
+"use client";
 import { useState, useEffect } from "react";
 
-interface Products {
+export interface Products {
   id: number;
   name: string;
   imgUrl: string;
@@ -17,28 +18,20 @@ interface Products {
   isProdutosRecentesSectionOffer?: boolean | null;
   isMaisVendidosSectionOffer?: boolean | null;
 }
+// prettier-ignore
 
-export const useFetchProducts = (url: string) => {
-  const [firstSectionProducts, setFirstSectionProducts] = useState<Products[]>(
-    []
-  );
-  const [secondSectionProducts, setSecondSectionProducts] = useState<
-    Products[]
-  >([]);
-  const [thirdSectionProducts, setThirdSectionProducts] = useState<Products[]>(
-    []
-  );
-  const [fourthSectionProducts, setFourthSectionProducts] = useState<
-    Products[]
-  >([]);
-  const [fifthSectionProducts, setFifthSectionProducts] = useState<Products[]>(
-    []
-  );
-
+export const useFetchProducts = (productsUrl: string) => {
+    
+  const [firstSectionProducts, setFirstSectionProducts] = useState<Products[]>([]);
+  const [secondSectionProducts, setSecondSectionProducts] = useState<Products[]>([]);
+  const [thirdSectionProducts, setThirdSectionProducts] = useState<Products[]>([]);
+  const [fourthSectionProducts, setFourthSectionProducts] = useState<Products[]>([]);
+  const [fifthSectionProducts, setFifthSectionProducts] = useState<Products[]>([]);
+    
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch(url);
+        const res = await fetch(productsUrl);
         const data = await res.json();
 
         // Filtro para produtos da primeira seção de ofertas da página inicial.
@@ -73,7 +66,7 @@ export const useFetchProducts = (url: string) => {
     }
 
     fetchData();
-  }, []);
+  }, [productsUrl]);
   return {
     firstSectionProducts,
     secondSectionProducts,

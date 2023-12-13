@@ -1,3 +1,6 @@
+"use client";
+import { useEffect } from "react";
+
 import NavigationBar from "./components/NavigationBar";
 import Banner from "./components/Banner";
 import AdsBanners from "./components/AdsBanners";
@@ -8,38 +11,47 @@ import CarouselBanner from "./components/ResponsiveDynamicAd/CarouselBanner";
 import PromotionBanners from "./components/PromotionBanners";
 import TagsRelacionados from "./components/TagsRelacionados";
 import Footer from "./components/Footer/Footer";
+import { useFetchProducts } from "./hooks/useFetchProducts";
 
 export default function Home() {
+  const productsUrl = "/api/products/";
+  const {
+    firstSectionProducts,
+    secondSectionProducts,
+    thirdSectionProducts,
+    fourthSectionProducts,
+    fifthSectionProducts,
+  } = useFetchProducts(productsUrl);
   return (
     <>
       <NavigationBar />
       <main>
         <Banner />
-        <OffersSection productsUrl="api/products" />
+        <OffersSection productsList={firstSectionProducts} />
         <AdsBanners
           bannerUmSrc="./ads banners/ad1.webp"
           bannerDoisSrc="./ads banners/ad2.webp"
         />
         <MarcasRecomendadas />
         <OffersSection
-          productsUrl="/products"
+          productsList={secondSectionProducts}
           sectionTitle="DESTAQUES NINJA"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/1"
         />
         <DepartamentoSection />
         <OffersSection
-          productsUrl="https://complemento-clone-kabum.vercel.app/ofertas"
+          productsList={thirdSectionProducts}
           sectionTitle="MAIS PROCURADOS"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/2"
         />
         <OffersSection
-          productsUrl="https://complemento-clone-kabum.vercel.app/destaques"
+          productsList={fourthSectionProducts}
           sectionTitle="ACABARAM DE CHEGAR"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/5"
         />
         <CarouselBanner />
         <OffersSection
-          productsUrl="https://complemento-clone-kabum.vercel.app/ofertas"
+          productsList={fifthSectionProducts}
           sectionTitle="MAIS VENDIDOS"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/3"
         />

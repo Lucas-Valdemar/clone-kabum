@@ -1,52 +1,24 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Slider from "react-slick";
 import OffersCore from "./OffersCore";
 import styles from "./OffersSection.module.css";
+
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { types } from "util";
 
-const url = "http://localhost:3000/destaques";
+import { Products } from "../hooks/useFetchProducts";
 
-interface Products {
-  id: number;
-  name: string;
-  imgUrl: string;
-  isNinjaIndica: boolean;
-  oldPrice: number | null;
-  price: number;
-  discount: number | null;
-  isPrimeNinja: boolean;
-  isFlash: boolean;
-  exclusiveOnPrimeNinjaPrice: number | null;
-}
 type Props = {
   sectionTitle?: string | null;
   titleIconLink?: string | null;
-  productsUrl: string;
+  productsList: Array<Products>;
 };
 const OffersSection: React.FC<Props> = ({
   sectionTitle,
   titleIconLink,
-  productsUrl,
+  productsList,
 }) => {
-  //  Fetch Products
-  const [products, setProducts] = useState<Products[]>([]);
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const res = await fetch(productsUrl);
-        const data = await res.json();
-        setProducts(data);
-      } catch (error) {
-        console.error("Erro ao obter dados:", error);
-      }
-    }
-
-    fetchData();
-  }, []);
-
   // Fetch svg link
 
   const [titleIcon, setTitleIcon] = useState<{ url: string } | null>(null);
@@ -119,7 +91,7 @@ const OffersSection: React.FC<Props> = ({
         </a>
       </div>
       <Slider {...settings} className={styles.slider_wrapper}>
-        {products.map((product) => (
+        {productsList.map((product) => (
           <div key={product.id}>
             <OffersCore
               productName={product.name}
