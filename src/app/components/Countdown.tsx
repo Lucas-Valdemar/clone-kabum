@@ -26,7 +26,6 @@ const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
       const difference = endDateTime.getTime() - new Date().getTime();
 
       if (difference <= 0) {
-        // Se a data de término já passou, retornamos zeros
         return { days: 0, hours: 0, minutes: 0, seconds: 0 };
       }
 
@@ -46,7 +45,6 @@ const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
 
     const timer = setInterval(updateCountdown, 1000);
 
-    // Certifique-se de limpar o intervalo ao desmontar o componente
     return () => clearInterval(timer);
   }, [endDate]);
 

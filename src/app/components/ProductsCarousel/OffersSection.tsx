@@ -7,7 +7,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { Products } from "../hooks/useFetchProducts";
+import { Products } from "../../hooks/useFetchProducts";
 
 type Props = {
   sectionTitle?: string | null;

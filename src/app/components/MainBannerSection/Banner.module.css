@@ -1,0 +1,134 @@
+.section_banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slick_wrapper {
+  width: 100vw;
+}
+.fetch_banner {
+  width: 200px;
+}
+.fetch_banner img {
+  width: 100%;
+}
+
+.footer_container {
+  position: relative;
+  top: -0.5rem;
+  background-color: rgb(241, 122, 40);
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+.contador {
+  align-items: center;
+  display: flex;
+}
+.contador svg {
+  width: 1.4rem;
+  margin-right: 0.8rem;
+  align-items: center;
+  height: 2.4rem;
+}
+.contador span {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+.h1 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Estilos aplicados na paginação */
+.dots_container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  bottom: 1.6rem;
+  position: relative;
+  width: 100%;
+}
+.dots_container li {
+  width: auto;
+  height: auto;
+  margin: 0px 0.25rem;
+  cursor: pointer;
+}
+.dots_container li button {
+  width: 2rem;
+  height: 0.6rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.4rem;
+  padding: 0px;
+}
+
+/* Reset slick dots */
+.dots_container li button::before {
+  font-family: "";
+  font-size: "";
+  line-height: "";
+  position: "";
+  top: "";
+  left: "";
+  width: "";
+  height: 0.6rem;
+  content: "";
+  text-align: "";
+  opacity: "";
+  color: "";
+  -webkit-font-smoothing: antialiased;
+}
+.play_button {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1.2rem;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  border: none;
+  transform: translateX(0.125rem) rotate(-90deg);
+}
+.pause_button {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1.2rem;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  border: none;
+}

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./OffersCore.module.css";
-import Countdown from "./Countdown";
+import Countdown from "../Countdown";
 
 type Props = {
   // Props Requeridas

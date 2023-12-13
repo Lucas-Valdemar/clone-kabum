@@ -58,3 +58,21 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .slick-pagination .slick-active button {
   background: rgb(255, 101, 0);
 }
+.slick-dots {
+  bottom: 0px !important;
+}
+.slick-active button::before {
+  content: "";
+  display: block;
+  background-color: rgb(241, 122, 40);
+  animation: progressAnimation 7s linear infinite;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

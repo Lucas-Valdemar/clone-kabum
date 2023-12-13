@@ -1,12 +1,12 @@
 "use client";
 import { useEffect } from "react";
 
-import NavigationBar from "./components/NavigationBar";
-import Banner from "./components/Banner";
+import NavigationBar from "./components/Header/NavigationBar";
+import Banner from "./components/MainBannerSection/Banner";
 import AdsBanners from "./components/AdsBanners";
 import MarcasRecomendadas from "./components/MarcasRecomendadas";
-import OffersSection from "./components/OffersSection";
-import DepartamentoSection from "./components/DepartamentoSection";
+import OffersSection from "./components/ProductsCarousel/OffersSection";
+import DepartamentoSection from "./components/DepartamentosCarousel/DepartamentoSection";
 import CarouselBanner from "./components/ResponsiveDynamicAd/CarouselBanner";
 import PromotionBanners from "./components/PromotionBanners";
 import TagsRelacionados from "./components/TagsRelacionados";
