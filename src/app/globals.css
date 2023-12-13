@@ -61,7 +61,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .slick-dots {
   bottom: 0px !important;
 }
-.slick-active button::before {
+.slick-active > button::before {
   content: "";
   display: block;
   background-color: rgb(241, 122, 40);
