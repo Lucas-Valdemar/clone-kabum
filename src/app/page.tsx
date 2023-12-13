@@ -15,14 +15,14 @@ export default function Home() {
       <NavigationBar />
       <main>
         <Banner />
-        <OffersSection productsUrl="https://complemento-clone-kabum.vercel.app/ofertas" />
+        <OffersSection productsUrl="api/products" />
         <AdsBanners
           bannerUmSrc="./ads banners/ad1.webp"
           bannerDoisSrc="./ads banners/ad2.webp"
         />
         <MarcasRecomendadas />
         <OffersSection
-          productsUrl="https://complemento-clone-kabum.vercel.app/destaques"
+          productsUrl="/products"
           sectionTitle="DESTAQUES NINJA"
           titleIconLink="https://complemento-clone-kabum.vercel.app/svgImg/1"
         />
