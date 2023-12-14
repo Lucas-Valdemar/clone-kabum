@@ -23,9 +23,9 @@ const MobileOnlyAviso = () => {
 
         <span>
           Uma visualização mobile pode ser gerada pelo navegador através da
-          opção "Toggle device toolbar" nas ferramentas de desenvolvedor "ctrl +
-          shift + C", ou simplesmente reduzindo a largura da janela do
-          navegador.
+          opção &ldquo;Toggle device toolbar&rdquo; nas ferramentas de
+          desenvolvedor &#40;Ctrl + Shift + C&#41;, ou simplesmente reduzindo a
+          largura da janela do navegador.
         </span>
         <span>Largura de ViewPort recomendado = 320px ~~ 600px</span>
       </div>
