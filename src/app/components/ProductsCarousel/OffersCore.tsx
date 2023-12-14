@@ -2,6 +2,7 @@
 import React from "react";
 import styles from "./OffersCore.module.css";
 import Countdown from "../Countdown";
+import { Products } from "@/app/hooks/useFetchProducts";
 
 type Props = {
   // Props Requeridas
@@ -14,8 +15,8 @@ type Props = {
   isNinjaIndica?: boolean;
   oldPrice?: number | null;
   discount?: number | null;
-  isPrimeNinja?: boolean;
-  isFlash?: boolean;
+  isPrimeNinja?: boolean | null;
+  isFlash?: boolean | null;
   exclusiveOnPrimeNinjaPrice?: number | null;
 };
 
