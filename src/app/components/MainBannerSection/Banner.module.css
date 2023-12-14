@@ -114,7 +114,9 @@
   font-size: 1.2rem;
   line-height: 1.8rem;
   border: none;
-  transform: translateX(0.125rem) rotate(-90deg);
+}
+.play_button svg {
+  transform: translateX(0.2rem) rotate(-90deg);
 }
 .pause_button {
   display: flex;

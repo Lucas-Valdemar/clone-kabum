@@ -5,12 +5,13 @@ export interface Products {
   id: number;
   name: string;
   imgUrl: string;
+  price: number;
+
   isNinjaIndica?: boolean;
   oldPrice?: number | null;
-  price: number;
   discount?: number | null;
-  isPrimeNinja?: boolean;
-  isFlash?: boolean;
+  isPrimeNinja?: boolean | null;
+  isFlash?: boolean | null;
   exclusiveOnPrimeNinjaPrice?: number | null;
   isFirstSectionOffer?: boolean | null;
   isDestaqueNinjaSectionOffer?: boolean | null;

@@ -8,6 +8,7 @@ type Props = {
   productName: string;
   imgUrl: string;
   price: number;
+  codigoProduto: number;
 
   // Props Opcionais
   isNinjaIndica?: boolean;
@@ -28,6 +29,7 @@ const OffersCore: React.FC<Props> = ({
   isPrimeNinja,
   isFlash,
   exclusiveOnPrimeNinjaPrice,
+  codigoProduto,
 }) => {
   const endDate = "26/12/2023 13:00";
   return (
@@ -107,7 +109,10 @@ const OffersCore: React.FC<Props> = ({
           </div>
         </div>
       </div>
-      <a href="" className={styles.product_page_link}>
+      <a
+        href={`/produto/${codigoProduto}`}
+        className={styles.product_page_link}
+      >
         <div className={styles.img_container}>
           <img src={imgUrl} alt={productName} />
           <div className={styles.under_img_itens}>

@@ -24,7 +24,6 @@ export default function Home() {
   } = useFetchProducts(productsUrl);
   return (
     <>
-      <NavigationBar />
       <main>
         <Banner />
         <OffersSection productsList={firstSectionProducts} />

@@ -1,10 +1,20 @@
 .search_form {
-  font-family: "Poppins", sans-serif;
+  position: relative;
+  flex: 1 1 0%;
+  width: calc(100vw - 17.2rem);
+}
+.searchBar_Container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.searchBar_mobile {
+  display: flex;
 }
 
 .input_button_layout {
   height: 36px;
-  width: 148px;
+  width: calc(100vw - 17.2rem);
   display: flex;
   align-items: center;
   background-color: white;
@@ -14,7 +24,7 @@
 }
 .input_button_layout:focus-within {
   outline: 1px solid white;
-  border: 2px solid orange;
+  border: 2px solid black;
 }
 .form_input:focus {
   outline: none;
@@ -23,7 +33,7 @@
 .form_input {
   position: relative;
   left: 15px;
-  width: 125px;
+  width: calc(100vw - 17.2rem);
   height: 36px;
   border: none;
   font-family: "Poppins", sans-serif;
@@ -31,6 +41,7 @@
 }
 .submit_button {
   top: 2px;
+  left: -10px;
   position: relative;
   background: none;
   color: inherit;

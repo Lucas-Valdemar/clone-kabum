@@ -94,6 +94,7 @@ const OffersSection: React.FC<Props> = ({
         {productsList.map((product) => (
           <div key={product.id}>
             <OffersCore
+              codigoProduto={product.id}
               productName={product.name}
               imgUrl={product.imgUrl}
               isNinjaIndica={product.isNinjaIndica}
